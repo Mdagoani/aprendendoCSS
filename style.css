@@ -1,22 +1,28 @@
 body {
-    background-color: rgba(253, 120, 207, 0.998);
+    background-color: #17c1f0;
+  
   }
   
   h1 {
-    color: rgb(255, 251, 251);
+    color: rgb(255, 255, 255);
+    background-color: LightPink;
+    border: 2px solid black;
+    font-family: Lucida Handwriting;
+    text-shadow: 2px 2px gray;
 
   }
-  
+  /*CLASS*/
   .center {
     text-align: center;
   }
 
   .fonte-roxo {
-    color: blueviolet;
+    color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
-  
+  /*ID*/
   #para {
-    font-family: Comic Sans MS;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
   }
