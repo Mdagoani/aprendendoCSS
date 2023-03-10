@@ -1,13 +1,22 @@
 body {
-    background-color: rgb(255, 95, 95);
+    background-color: rgba(253, 120, 207, 0.998);
   }
   
   h1 {
-    color: rgb(255, 0, 0);
-    text-align: center;
+    color: rgb(255, 251, 251);
+
   }
   
-  p {
+  .center {
+    text-align: center;
+  }
+
+  .fonte-roxo {
+    color: blueviolet;
+  }
+
+  
+  #para {
     font-family: Comic Sans MS;
     font-size: 20px;
   }
