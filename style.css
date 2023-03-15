@@ -1,16 +1,24 @@
 body {
-    background-color: #17c1f0;
-  
-  }
-  
+    /*background-color: #17c1f0; */
+    background-image: url("mini.jpg");
+    
+}
+ 
   h1 {
-    color: rgb(255, 255, 255);
-    background-color: LightPink;
-    border: 2px solid black;
-    font-family: Lucida Handwriting;
+    color: white;
+    background-color: rgb(236, 110, 110);
+    border: 2px groove darkmagenta;
+    border-radius: 10px;
+    font-family:'Courier New', Courier, monospace, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: 2px 2px gray;
-
+    margin-top: 100px;
+     margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    
+  
   }
+
   /*CLASS*/
   .center {
     text-align: center;
@@ -26,3 +34,4 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
   }
+
