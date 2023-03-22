@@ -1,7 +1,7 @@
 body {
     /*background-color: #17c1f0; */
     background-image: url("mini.jpg");
-    
+    font-family: 'Lobster', cursive;
 }
  
   h1 {
@@ -9,14 +9,12 @@ body {
     background-color: rgb(236, 110, 110);
     border: 2px groove darkmagenta;
     border-radius: 10px;
-    font-family:'Courier New', Courier, monospace, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-shadow: 2px 2px gray;
+    text-shadow: 2px 2px 5px gray;
     margin-top: 100px;
      margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
-    
-  
+    text-transform: uppercase;
   }
 
   /*CLASS*/
@@ -35,3 +33,16 @@ body {
     font-size: 20px;
   }
 
+  .link {
+    text-align: center;
+    font-size: 30px;
+    text-transform: lowercase;
+    border-style: solid;
+    border-color: aliceblue;
+  }
+
+  .link {
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px brown;
+  }
